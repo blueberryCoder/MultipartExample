@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.blueberry.multipart.MainActivity">
+
+    <Button
+        android:id="@+id/btn_single_part"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="单个文件上传-part"
+        />
+
+    <Button
+        android:id="@+id/btn_single_request"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="单个文件上传-requestBody"
+        />
+
+    <Button
+        android:id="@+id/btn_multi_file_part"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="多文件上传-part"
+        />
+
+    <Button
+        android:id="@+id/btn_multi_file_request"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="多文件上传-requestbody"
+        />
+
+    <Button
+        android:id="@+id/btn_multi_part"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="文本+文件上传-Part"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_multi_request"
+        android:text="文本+文件上传-Request"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_binary"
+        android:text="直接上传-文件"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_binary_stream"
+        android:text="直接上传-流"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_message"
+        />
+</LinearLayout>
